@@ -194,11 +194,15 @@ int main()
 							
 							if(CPU_val>limita_cpu_val)
 							{
+					                        sprintf(command, "kill -19 %d",v[i]);
+                                                        	system(command);
 								fprintf(g,"limitez CPU.\n");
 							}
 							else
 								if(MEM_val>limita_mem_val)
 								{
+									sprintf(command, "kill -19 %d",v[i]);
+                                                        		system(command);
 									fprintf(g,"limitez MEM\n");
 								}
 								else
