@@ -171,8 +171,8 @@ int main()
 					{
 						fprintf(g,"limitez RES.\n");
 						//constructia comenzii si executarea acesteia in terminal
-						//sprintf(command, "kill -19 %d",v[i]);
-						//system(command);
+						sprintf(command, "kill -19 %d",v[i]);
+						system(command);
 					}
 					else
 						if(STARE[i]=='Z')//daca procesul este zombi
