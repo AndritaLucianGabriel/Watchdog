@@ -1,2 +1,3 @@
-# watchdog
-Programul a fost scris pentru mediul Linux procesand datele cu privire la procesele active si urmarind resursele si stadiul acestora. In functie de acesti parametrii si de o lista data in prealabil cu procesele pe care dorim sa le urmarim, ele sunt oprite, iar actiunea in sine este trecuta in fisierul log.
+# Watchdog
+
+The program has been written for the Linux environment by processing the data of active processes, mostly the resources they require and their state. According to these parameters and a given list given by the user, we will be able to stop those processes if the threshold will be surpassed. All the actions will be documented in a file named log.txt.
